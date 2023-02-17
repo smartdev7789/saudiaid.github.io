@@ -1,0 +1,274 @@
+/* general */
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.pt_non-footer {
+  flex-grow: 1;
+}
+@media (max-width: 1023px) {
+  .pt_desktop-show {
+    display: none !important;
+  }
+}
+@media (min-width: 1024px) {
+  .pt_mobile-show {
+    display: none !important;
+  }
+}
+
+/* scroll */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #005a59;
+  border-radius: 20px;
+  border: 3px solid #f5f5f5;
+}
+
+/* container */
+.pt_container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* space */
+.pt_h-fit {
+  height: fit-content;
+}
+.pt_h-auto {
+  height: auto !important;
+}
+.pt_w-150px {
+  width: 150px;
+}
+.pt_w-500px {
+  width: 500px;
+}
+.pt_w-450px {
+  width: 450px;
+}
+.pt_w-60per {
+  width: 60%;
+}
+.pt_w-max-unset {
+  max-width: unset !important;
+}
+.pt_w-min-unset {
+  min-width: unset !important;
+}
+.pt_w-max-800px {
+  max-width: 800px;
+}
+.pt_w-max-100per {
+  max-width: 100% !important;
+}
+.pt_w-fit {
+  width: fit-content;
+}
+.pt_right-m-5px {
+  right: -5px;
+}
+.pt_right-m-15px {
+  right: -15px;
+}
+.pt_mt-20 {
+  margin-top: 10rem;
+}
+.pt_mt-group-1 > * {
+  margin-top: 0.5rem;
+}
+.pt_mt-group-2 > * {
+  margin-top: 1rem;
+}
+.pt_mt-group-3 > * {
+  margin-top: 1.5rem;
+}
+.pt_flex-1 {
+  flex-grow: 1;
+}
+*:has(.pt_middle) {
+  position: relative;
+}
+.pt_middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 1023px) {
+  .col-pt-12 {
+    width: 100% !important;
+  }
+}
+
+/* color */
+.pt_color-green {
+  color: #005a59;
+}
+.pt_color-yellow {
+  color: #af9a64;
+}
+
+/* background */
+.pt_background-green {
+  background-color: #005a59;
+}
+.pt_background-green-1 {
+  background-color: #6bb7b7;
+}
+.pt_background-yellow {
+  background-color: #b39968;
+}
+.pt_background-yellow-1 {
+  background-color: #e7e3d8;
+}
+.pt_background-light-grey {
+  background-color: #eeece7;
+}
+.pt_background-light-grey-1 {
+  background-color: #ebebeb;
+}
+.pt_background-light-grey-2 {
+  background-color: #f5f5f5;
+}
+
+/* icon */
+.pt_icon-circle-green {
+  background-color: #005a59;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+.pt_icon-circle-white {
+  background-color: #ffffff;
+  color: #005a59;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+/* shadow-box */
+.pt_shadow-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* button */
+.pt_button {
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  padding: 5px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.pt_button-green {
+  background-color: #005a59;
+  border: #005a59 1px solid;
+  color: #ffffff;
+}
+.pt_button-green:hover {
+  background-color: #ffffff;
+  color: #005a59;
+}
+.pt_button-yellow {
+  background-color: #b39968;
+  border: #b39968 1px solid;
+  color: #ffffff;
+}
+.pt_button-yellow:hover {
+  background-color: #ffffff;
+  color: #b39968;
+}
+.pt_button-grey {
+  background-color: #f3f3f4;
+  border: #f3f3f4 1px solid;
+  color: #313131;
+}
+.pt_button-grey:hover {
+  color: #f3f3f4;
+  background-color: #313131;
+}
+.pt_button-white {
+  background-color: #ffffff;
+  border: #f3f3f4 1px solid;
+  color: #313131;
+}
+.pt_button-white:hover {
+  color: #ffffff;
+  background-color: #313131;
+}
+.pt_image-button {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.pt_button-opacity {
+  opacity: 0.5;
+}
+.pt_button-opacity:hover {
+  opacity: 1;
+}
+
+/* interact form */
+.pt_resize-none {
+  resize: none;
+}
+
+/* other */
+.pt_cursor-pointer {
+  cursor: pointer;
+}
+
+/* z-index */
+.pt_z-index-10 {
+  z-index: 10;
+}
+
+/* checkbox */
+.checkbox-style-1,
+.checkbox-style-1:hover {
+  border: 1px solid #313131;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+ul.multiselect-container {
+  min-width: 100%;
+  width: fit-content;
+}
+
+/* input */
+.input-style-1 {
+  border: 1px solid #313131;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 5px;
+  height: 38px;
+  padding-left: 10px;
+}
+
+/* overflow */
+.pt_overflow-wrap-break {
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,7 @@
+.filter-item {
+  background-color: #cec9bc;
+  padding: 5px 10px;
+}
+.filter-item i {
+  cursor: pointer;
+}

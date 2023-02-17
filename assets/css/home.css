@@ -1,0 +1,277 @@
+.country-flag {
+  text-align: center;
+}
+.country-flag img {
+  width: 100px;
+  height: 100px;
+}
+.country-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+.country-amount {
+  font-weight: bold;
+  font-size: 18px;
+}
+@media (max-width: 575px) {
+  .country-flag img {
+    width: 50px;
+    height: 50px;
+  }
+  .country-name {
+    font-size: 10px;
+    text-align: center;
+  }
+  .country-amount {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+.hero {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 75%;
+}
+.hero img:first-child {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  min-width: 100%;
+}
+.hero img:nth-child(2) {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+}
+.pt_slick-entities button.slick-arrow::before,
+.pt_slick-entities-mobile button.slick-arrow::before {
+  color: #005a59;
+}
+.pt_slick-entities-mobile-item,
+.pt_slick-entities-item {
+  text-align: center;
+}
+.pt_slick-entities-mobile-item img,
+.pt_slick-entities-item img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+.static-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: none;
+}
+.static-item.active {
+  display: block;
+}
+.static-detail {
+  display: flex;
+  gap: 0.5rem;
+  background-color: #005a59;
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 10px;
+  align-items: center;
+}
+.static-detail img {
+  width: 80px;
+  height: 80px;
+}
+.static-detail-unit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.static-detail-number {
+  font-weight: bold;
+  font-size: 20px;
+}
+.static-detail-line {
+  background-color: #e7e3d8;
+  width: 1px;
+  height: 100%;
+}
+.static-detail-description {
+  margin-bottom: 0px;
+}
+.country-list {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.country-item {
+  cursor: pointer;
+  font-weight: bold;
+  color: #b39968;
+  padding: 5px;
+  border-radius: 5px;
+}
+.country-item:hover {
+  background-color: #e7e3d8;
+}
+.country-item img {
+  width: 30px;
+  height: 30px;
+}
+#section-up {
+  position: absolute;
+  top: 38%;
+  right: 67%;
+}
+#section-down {
+  position: absolute;
+  bottom: 37%;
+  right: 67%;
+}
+.btn-handle {
+  position: absolute;
+  cursor: pointer;
+}
+#btn-handle-1 {
+  left: 39%;
+  top: 2%;
+}
+#btn-handle-2 {
+  left: 39%;
+  top: 43%;
+}
+#btn-handle-3 {
+  left: 35%;
+  top: 66%;
+}
+.map-country-info {
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  background-color: #ffffff;
+  gap: 0.5rem;
+  display: none;
+  transform: translate(-100px, -66px);
+}
+.map-country-info img {
+  width: 50px;
+  height: 50px;
+}
+.map-country-info::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid #ffffff;
+  top: 100%;
+  left: 50%;
+}
+.map-country-info.active {
+  display: flex;
+}
+.chart-2-tooltip {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  gap: 0.5rem;
+}
+.chart-2-tooltip p {
+  margin: 0;
+}
+.chart-3-tooltip {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  gap: 0.5rem;
+}
+.chart-3-tooltip img {
+  width: 50px;
+  height: 50px;
+}
+.chart-3-tooltip p {
+  margin: 0;
+}
+#static-item-3 {
+  background-image: url("../images/map-land.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.mobile-detail-button {
+  width: 33.33333%;
+  text-align: center;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #c7c7c7;
+  color: #818181;
+}
+.mobile-detail-button.active,
+.mobile-detail-button:hover {
+  background-color: #095c5b;
+  color: #ffffff;
+}
+
+.mobile-detail-button i {
+  font-size: 30px;
+}
+.mobile-detail-number-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+.mobile-detail-number-item img {
+  width: 70px;
+  height: 70px;
+}
+.mobile-detail-number-item h3 {
+  font-weight: bolder;
+  color: #e7e3d8;
+}
+.mobile-detail-number-item h6 {
+  font-weight: bold;
+  color: #e7e3d8;
+}
+.style-1 {
+  display: flex;
+  gap: 2rem;
+  padding: 0.5rem;
+  align-items: center;
+}
+.style-1 h6 {
+  font-weight: bold;
+}
+.style-1-1,
+.style-1-2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: #e7e3d8 3px solid;
+  position: relative;
+  min-width: 50px;
+}
+.style-1-1 img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.style-1-2 img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+}

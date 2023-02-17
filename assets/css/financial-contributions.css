@@ -1,0 +1,57 @@
+.hero {
+  min-height: 300px;
+  background-image: url("../images/image-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-statistics img {
+  width: 80px;
+  height: 80px;
+}
+.filter-item {
+  background-color: #6bb7b7;
+  padding: 5px 10px;
+}
+.filter-item i {
+  cursor: pointer;
+}
+.static-item {
+  border: 1px solid #af9a64;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+#table-5 thead tr th {
+  text-align: center;
+}
+#table-5 tbody tr td:first-child,
+#table-5 tbody tr td:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+#table-5 tbody tr td:nth-child(2) {
+  text-align: center;
+  padding: 0;
+}
+.number-of-statistics {
+  width: 50%;
+  text-align: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  color: #00595a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  font-size: 20px;
+}
+.number-of-statistics.active,
+.number-of-statistics:hover {
+  background-color: #00595a;
+  color: #ffffff;
+}

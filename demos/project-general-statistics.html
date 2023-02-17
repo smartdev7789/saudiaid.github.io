@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="../assets/libraries/fontawesome-free-6.2.1-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/libraries/bootstrap-5.2.3-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/libraries/datatable-1.13.1/datatables.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style-func.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/css/project-general-statistics.css"
+    />
+    <title>Project General Statistics</title>
+  </head>
+  <body>
+    <div class="pt_non-footer">
+      <header class="position-relative">
+        <div class="pt_header-top pt_background-yellow-1">
+          <div
+            class="pt_container d-flex justify-content-between align-items-center"
+          >
+            <div class="pt_header-languages">
+              <a href="javascript:;">عربي</a> |
+              <a href="javascript:;">Français</a> |
+              <a href="javascript:;"> Deutsch</a>
+            </div>
+            <div class="pt_header-social-links">
+              <a href="javascript:;"><i class="fab fa-facebook"></i></a>
+              <a href="javascript:;"><i class="fab fa-twitter"></i></a>
+              <a href="javascript:;"><i class="fab fa-instagram"></i></a>
+              <a href="javascript:;"><i class="fab fa-snapchat-ghost"></i></a>
+              <a href="javascript:;"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="pt_header-menubar pt_background-green">
+          <div
+            class="pt_container d-flex justify-content-between align-items-center"
+          >
+            <a href="home.html">
+              <img
+                src="../assets/images/logo.png"
+                alt="logo"
+                class="pt_w-150px"
+              />
+            </a>
+            <div class="pt_header-menu pt_desktop-show">
+              <a href="about-us.html" class="pt_menu-item">About</a>
+              <div class="dropdown">
+                <p
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  class="pt_menu-item"
+                >
+                  Projects <i class="fa fa-angle-down"></i>
+                </p>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="project-general-statistics.html"
+                      >General Statistics</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="timeline-project.html"
+                      >Project Timeline</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <p
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  class="pt_menu-item"
+                >
+                  Financial Contributions <i class="fa fa-angle-down"></i>
+                </p>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="financial-contributions.html"
+                      >General Statistics</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="timeline-contribution.html"
+                      >Contribution Timeline</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <p
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  class="pt_menu-item"
+                >
+                  Visitors (refugees) <i class="fa fa-angle-down"></i>
+                </p>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="visitors-refugees.html"
+                      >General Statistics</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="timeline-service.html"
+                      >Service Timeline</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <p
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  class="pt_menu-item"
+                >
+                  Data and reports <i class="fa fa-angle-down"></i>
+                </p>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="create-report-3.html"
+                      >Create Report</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="search-for-a-project.html"
+                      >Search For a Project</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="search-for-a-contribution.html"
+                      >Search For a Contribution</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="search-for-a-service.html"
+                      >Search For a Service</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <a href="contact.html" class="pt_menu-item">Contact us</a>
+            </div>
+            <div class="pt_header-menu-mobile pt_mobile-show">
+              <i
+                class="fa fa-bars text-white pt_cursor-pointer pt_mobile-menu-toggle-btn"
+              ></i>
+              <div
+                class="pt_mobile-menu-div d-flex flex-column gap-4 pt_shadow-box"
+              >
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="home.html">
+                    <img
+                      src="../assets/images/logo-1.png"
+                      alt="logo-1"
+                      class="pt_w-150px"
+                    />
+                  </a>
+                  <i
+                    class="fa fa-close pt_cursor-pointer pt_mobile-menu-toggle-btn"
+                  ></i>
+                </div>
+                <div>
+                  <div class="mobile-menu-item">
+                    <a href="about-us.html">About </a>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <div class="mobile-menu-item mobile-menu-item-parent">
+                    <a href="javascript:;"
+                      >Projects <i class="fa fa-angle-down icon-direction"></i
+                    ></a>
+                  </div>
+                  <div class="mobile-menu-item-children">
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="project-general-statistics.html"
+                        >General Statistic</a
+                      >
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="timeline-project.html">Project Timeline</a>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <div class="mobile-menu-item mobile-menu-item-parent">
+                    <a href="javascript:;"
+                      >Financial contributions
+                      <i class="fa fa-angle-down icon-direction"></i
+                    ></a>
+                  </div>
+                  <div class="mobile-menu-item-children">
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="financial-contributions.html"
+                        >General Statistic</a
+                      >
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="timeline-contribution.html"
+                        >Contribution Timeline</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <div class="mobile-menu-item mobile-menu-item-parent">
+                    <a href="javascript:;"
+                      >Visitors (refugees)
+                      <i class="fa fa-angle-down icon-direction"></i
+                    ></a>
+                  </div>
+                  <div class="mobile-menu-item-children">
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="visitors-refugees.html">General Statistic</a>
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="timeline-service.html">Service Timeline</a>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <div class="mobile-menu-item mobile-menu-item-parent">
+                    <a href="javascript:;"
+                      >Data and reports
+                      <i class="fa fa-angle-down icon-direction"></i
+                    ></a>
+                  </div>
+                  <div class="mobile-menu-item-children">
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="create-report-3.html">Create Report</a>
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="search-for-a-project.html"
+                        >Search For a Project</a
+                      >
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="search-for-a-contribution.html"
+                        >Search For a Contribution</a
+                      >
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="search-for-a-service.html"
+                        >Search For a Service</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <div class="mobile-menu-item">
+                    <a href="contact.html">Contact </a>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <span class="lang-switch"
+                    ><span class="lang-switch-select lang-switch-item px-3"
+                      >عربي</span
+                    ><span class="lang-switch-item">Français</span
+                    ><span class="lang-switch-item">Deutsch</span></span
+                  >
+                </div>
+                <div
+                  class="d-flex justify-content-between align-content-center"
+                >
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-instagram"></i></span
+                  ></a>
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-youtube"></i></span
+                  ></a>
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-twitter"></i></span
+                  ></a>
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-facebook"></i></span
+                  ></a>
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-snapchat-ghost"></i></span
+                  ></a>
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-whatsapp"></i></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="hero">
+          <div class="pt_container">
+            <h3 class="text-center text-white">General statistics</h3>
+            <div
+              class="mt-5 d-flex gap-5 justify-content-center hero-statistics text-white flex-wrap"
+            >
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-11.png" alt="icon-11" />
+                <p>Total Projects</p>
+                <strong>4931</strong>
+              </div>
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-12.png" alt="icon-12" />
+                <p>Beneficiary Countries</p>
+                <strong>164</strong>
+              </div>
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-13.png" alt="icon-13" />
+                <p>No. of Sectors</p>
+                <strong>39</strong>
+              </div>
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-14.png" alt="icon-14" />
+                <p>No. of Partners</p>
+                <strong>462</strong>
+              </div>
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-15.png" alt="icon-15" />
+                <p>Donor Entities</p>
+                <strong>15</strong>
+              </div>
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-16.png" alt="icon-16" />
+                <p>Total funding</p>
+                <strong>
+                  62.92 Billion USD Dollar<br />
+                  235.95 Billion Saudi Riyal
+                </strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="position-absolute pt_background-light-grey-1 w-100 pt_desktop-show"
+          style="height: 380px"
+        ></div>
+        <div class="pt_container pt_z-index-10 position-relative">
+          <div class="mt-2 d-flex justify-content-between pt_desktop-show">
+            <div class="pt_navigation-green">
+              <a href="home.html"><span>Home</span></a>
+              <span><i class="fa fa-angle-right"></i></span>
+              <a href="javascript:;"><span>Project</span></a>
+              <span><i class="fa fa-angle-right"></i></span>
+              <a href="javascript:;"><span>General Statistics</span></a>
+            </div>
+            <div class="pt_share-section">
+              <p>
+                <span class="pt_color-green">Share this page</span>
+                <span class="pt_icon-circle-green" id="pt_share-btn">
+                  <i class="fa fa-share-nodes"></i>
+                </span>
+              </p>
+              <div class="pt_share-items pt_right-m-15px">
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fa fa-envelope"></i></a>
+                </div>
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fa fa-print"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mt-2 d-flex justify-content-between pt_mobile-show align-items-center"
+          >
+            <h5 class="fw-bold mb-0">Filters</h5>
+            <button
+              class="pt_button pt_button-green"
+              id="btn-mobile-toggle-filter-conditions"
+            >
+              <i class="fa fa-filter"></i>
+            </button>
+          </div>
+          <div class="pt_mobile-show mt-3 pt_mobile-filter-conditions d-none">
+            <div class="d-flex flex-column gap-2">
+              <select
+                id="multiple-checkboxes-regions-mobile"
+                multiple="multiple"
+                class="pt_multiple-checkboxes pt_multiple-checkboxes-mobile checkbox-style-1"
+              >
+                <option value="United Nations">United Nations</option>
+                <option value="Asian Infrastructure Investment Bank">
+                  Asian Infrastructure Investment Bank
+                </option>
+                <option
+                  value="Secretariat General of the Gulf Cooperation Council"
+                >
+                  Secretariat General of the Gulf Cooperation Council
+                </option>
+                <option value="Arab Fund for Economic & Social Development">
+                  Arab Fund for Economic & Social Development
+                </option>
+                <option value="Islamic Development Bank">
+                  Islamic Development Bank
+                </option>
+                <option value="League of Arab States">
+                  League of Arab States
+                </option>
+                <option value="United Nations Development Programme (UNDP)">
+                  United Nations Development Programme (UNDP)
+                </option>
+              </select>
+              <select
+                id="multiple-checkboxes-beneficiary-mobile"
+                multiple="multiple"
+                class="pt_multiple-checkboxes pt_multiple-checkboxes-mobile checkbox-style-1"
+              >
+                <option value="United Nations">United Nations</option>
+                <option value="South Asia">South Asia</option>
+                <option value="Sub-Saharan Africa">Sub-Saharan Africa</option>
+                <option value="Europe - Asia">Europe - Asia</option>
+                <option value="East Asia & Pacific">East Asia & Pacific</option>
+                <option value="Global">Global</option>
+                <option value="Latin America & Caribbean">
+                  Latin America & Caribbean
+                </option>
+                <option value="Europe & Central Asia">
+                  Europe & Central Asia
+                </option>
+                <option value="North America">North America</option>
+              </select>
+              <select
+                id="multiple-checkboxes-sector-mobile"
+                multiple="multiple"
+                class="pt_multiple-checkboxes pt_multiple-checkboxes-mobile checkbox-style-1"
+              >
+                <option value="Middle East & North Africa">
+                  Middle East & North Africa
+                </option>
+                <option value="South Asia">South Asia</option>
+                <option value="Sub-Saharan Africa">Sub-Saharan Africa</option>
+                <option value="Europe - Asia">Europe - Asia</option>
+                <option value="East Asia & Pacific">East Asia & Pacific</option>
+                <option value="Global">Global</option>
+                <option value="Latin America & Caribbean">
+                  Latin America & Caribbean
+                </option>
+                <option value="Europe & Central Asia">
+                  Europe & Central Asia
+                </option>
+                <option value="North America">North America</option>
+              </select>
+              <select
+                id="multiple-checkboxes-category-mobile"
+                multiple="multiple"
+                class="pt_multiple-checkboxes pt_multiple-checkboxes-mobile checkbox-style-1"
+              >
+                <option value="Development">Development</option>
+                <option value="Humanitarian">Humanitarian</option>
+                <option value="Charity">Charity</option>
+              </select>
+              <select
+                id="multiple-checkboxes-entity-mobile"
+                multiple="multiple"
+                class="pt_multiple-checkboxes pt_multiple-checkboxes-mobile checkbox-style-1"
+              >
+                <option value="The Saudi Fund for Development">
+                  The Saudi Fund for Development
+                </option>
+                <option value="Ministry of Foreign Affairs">
+                  Ministry of Foreign Affairs
+                </option>
+                <option value="King Salman Humanitarian Aid and Relief Centre">
+                  King Salman Humanitarian Aid and Relief Centre
+                </option>
+                <option value="Ministry of Finance">Ministry of Finance</option>
+                <option value="Ministry of Transportation">
+                  Ministry of Transportation
+                </option>
+                <option value="The General Authority of Zakat and Tax">
+                  The General Authority of Zakat and Tax
+                </option>
+              </select>
+              <select
+                id="multiple-checkboxes-year-mobile"
+                multiple="multiple"
+                class="pt_multiple-checkboxes pt_multiple-checkboxes-mobile checkbox-style-1"
+              >
+                <option value="2021 - 2022">2021 - 2022</option>
+                <option value="2020 - 2021">2020 - 2021</option>
+                <option value="2019 - 2020">2019 - 2020</option>
+                <option value="2018 - 2019">2018 - 2019</option>
+              </select>
+              <button
+                class="pt_button pt_button-green w-100"
+                id="btn-mobile-filter-apply"
+              >
+                Apply
+              </button>
+            </div>
+          </div>
+          <h3 class="fw-bolder mt-3 pt_desktop-show">
+            Humanitarian, Developmental, and Charity Projects
+            <i class="fa fa-circle-exclamation"></i>
+          </h3>
+          <div
+            class="d-flex justify-content-between align-items-center pt_shadow-box py-2 px-4 bg-white flex-wrap pt_desktop-show"
+          >
+            <p class="fw-bold m-0">Filters</p>
+            <select
+              id="multiple-checkboxes-regions"
+              multiple="multiple"
+              class="pt_multiple-checkboxes"
+            >
+              <option value="United Nations">United Nations</option>
+              <option value="Asian Infrastructure Investment Bank">
+                Asian Infrastructure Investment Bank
+              </option>
+              <option
+                value="Secretariat General of the Gulf Cooperation Council"
+              >
+                Secretariat General of the Gulf Cooperation Council
+              </option>
+              <option value="Arab Fund for Economic & Social Development">
+                Arab Fund for Economic & Social Development
+              </option>
+              <option value="Islamic Development Bank">
+                Islamic Development Bank
+              </option>
+              <option value="League of Arab States">
+                League of Arab States
+              </option>
+              <option value="United Nations Development Programme (UNDP)">
+                United Nations Development Programme (UNDP)
+              </option>
+            </select>
+            <select
+              id="multiple-checkboxes-beneficiary"
+              multiple="multiple"
+              class="pt_multiple-checkboxes"
+            >
+              <option value="United Nations">United Nations</option>
+              <option value="South Asia">South Asia</option>
+              <option value="Sub-Saharan Africa">Sub-Saharan Africa</option>
+              <option value="Europe - Asia">Europe - Asia</option>
+              <option value="East Asia & Pacific">East Asia & Pacific</option>
+              <option value="Global">Global</option>
+              <option value="Latin America & Caribbean">
+                Latin America & Caribbean
+              </option>
+              <option value="Europe & Central Asia">
+                Europe & Central Asia
+              </option>
+              <option value="North America">North America</option>
+            </select>
+            <select
+              id="multiple-checkboxes-sector"
+              multiple="multiple"
+              class="pt_multiple-checkboxes"
+            >
+              <option value="Middle East & North Africa">
+                Middle East & North Africa
+              </option>
+              <option value="South Asia">South Asia</option>
+              <option value="Sub-Saharan Africa">Sub-Saharan Africa</option>
+              <option value="Europe - Asia">Europe - Asia</option>
+              <option value="East Asia & Pacific">East Asia & Pacific</option>
+              <option value="Global">Global</option>
+              <option value="Latin America & Caribbean">
+                Latin America & Caribbean
+              </option>
+              <option value="Europe & Central Asia">
+                Europe & Central Asia
+              </option>
+              <option value="North America">North America</option>
+            </select>
+            <select
+              id="multiple-checkboxes-category"
+              multiple="multiple"
+              class="pt_multiple-checkboxes"
+            >
+              <option value="Development">Development</option>
+              <option value="Humanitarian">Humanitarian</option>
+              <option value="Charity">Charity</option>
+            </select>
+            <select
+              id="multiple-checkboxes-entity"
+              multiple="multiple"
+              class="pt_multiple-checkboxes"
+            >
+              <option value="The Saudi Fund for Development">
+                The Saudi Fund for Development
+              </option>
+              <option value="Ministry of Foreign Affairs">
+                Ministry of Foreign Affairs
+              </option>
+              <option value="King Salman Humanitarian Aid and Relief Centre">
+                King Salman Humanitarian Aid and Relief Centre
+              </option>
+              <option value="Ministry of Finance">Ministry of Finance</option>
+              <option value="Ministry of Transportation">
+                Ministry of Transportation
+              </option>
+              <option value="The General Authority of Zakat and Tax">
+                The General Authority of Zakat and Tax
+              </option>
+            </select>
+            <select
+              id="multiple-checkboxes-year"
+              multiple="multiple"
+              class="pt_multiple-checkboxes"
+            >
+              <option value="2021 - 2022">2021 - 2022</option>
+              <option value="2020 - 2021">2020 - 2021</option>
+              <option value="2019 - 2020">2019 - 2020</option>
+              <option value="2018 - 2019">2018 - 2019</option>
+            </select>
+            <button class="pt_button pt_button-green" id="btn-apply">
+              Apply
+            </button>
+          </div>
+          <div id="filter-div" class="d-none">
+            <div class="mt-5 d-flex justify-content-between">
+              <div class="d-flex gap-2 flex-wrap" id="filter-conditions"></div>
+              <div>
+                <button class="pt_button pt_button-green" id="btn-clear">
+                  Clear
+                </button>
+              </div>
+            </div>
+            <div class="mt-5 pt_shadow-box bg-white p-5">
+              <h4
+                class="text-center pt_color-yellow fw-bold"
+                style="border: 1px solid #af9a64; border-radius: 5px"
+              >
+                General statistics
+              </h4>
+              <div class="mt-3 rounded-2 pt_background-light-grey-2 p-2">
+                <h5 class="pt_color-green text-center fw-bold">
+                  Total funding
+                </h5>
+                <div class="d-flex gap-5 mt-3 justify-content-center">
+                  <div class="d-flex gap-2 align-items-center">
+                    <img
+                      src="../assets/images/icon-2.png"
+                      alt="icon-2"
+                      width="50"
+                      height="50"
+                    />
+                    <div class="text-center">
+                      <h5 class="pt_color-yellow fw-bold">2.52</h5>
+                      <h6 class="pt_color-green mb-0">Billion USD Dollar</h6>
+                    </div>
+                  </div>
+                  <div class="pt_background-yellow" style="width: 2px"></div>
+                  <div class="d-flex gap-2 align-items-center">
+                    <img
+                      src="../assets/images/icon-1.png"
+                      alt="icon-1"
+                      width="50"
+                      height="50"
+                    />
+                    <div class="text-center">
+                      <h5 class="pt_color-yellow fw-bold">9.47</h5>
+                      <h6 class="pt_color-green mb-0">Billion Saudi Riyal</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mt-4 d-flex align-items-center justify-content-center gap-3"
+              >
+                <div class="static-item">
+                  <img
+                    src="../assets/images/icon-11.png"
+                    alt="icon-11"
+                    width="50"
+                    height="50"
+                  />
+                  <div>
+                    <h6 class="fw-bold">Number Of Projects</h6>
+                    <h4 class="fw-bold pt_color-yellow mb-0">5113</h4>
+                  </div>
+                </div>
+                <div class="static-item">
+                  <img
+                    src="../assets/images/icon-12.png"
+                    alt="icon-12"
+                    width="50"
+                    height="50"
+                  />
+                  <div>
+                    <h6 class="fw-bold">Beneficiary Countries</h6>
+                    <h4 class="fw-bold pt_color-yellow mb-0">164</h4>
+                  </div>
+                </div>
+                <div class="static-item">
+                  <img
+                    src="../assets/images/icon-15.png"
+                    alt="icon-15"
+                    width="50"
+                    height="50"
+                  />
+                  <div>
+                    <h6 class="fw-bold">Doner Entity</h6>
+                    <h4 class="fw-bold pt_color-yellow mb-0">6</h4>
+                  </div>
+                </div>
+                <div class="static-item">
+                  <img
+                    src="../assets/images/icon-15.png"
+                    alt="icon-15"
+                    width="50"
+                    height="50"
+                  />
+                  <div>
+                    <h6 class="fw-bold">Sector</h6>
+                    <h4 class="fw-bold pt_color-yellow mb-0">39</h4>
+                  </div>
+                </div>
+                <div class="static-item">
+                  <img
+                    src="../assets/images/icon-14.png"
+                    alt="icon-14"
+                    width="50"
+                    height="50"
+                  />
+                  <div>
+                    <h6 class="fw-bold">Partners</h6>
+                    <h4 class="fw-bold pt_color-yellow mb-0">6</h4>
+                  </div>
+                </div>
+              </div>
+              <hr class="mt-4" />
+            </div>
+          </div>
+          <h3 class="fw-bolder mt-3 pt_mobile-show text-center">
+            Humanitarian, Developmental, and Charity Projects
+            <i class="fa fa-circle-exclamation"></i>
+          </h3>
+          <div class="row mt-2">
+            <div class="col-md-4 p-3">
+              <div class="pt_shadow-box bg-white p-3" style="height: 500px">
+                <div class="overflow-auto h-100">
+                  <table id="table-1" class="pt_table-1">
+                    <thead>
+                      <tr>
+                        <th>Continent</th>
+                        <th>Projects</th>
+                        <th>Funding$</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>Middle East & North Africa</strong></td>
+                        <td>920</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td><strong>South Asia</strong></td>
+                        <td>820</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Sub-Saharan Africa</strong></td>
+                        <td>720</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Europe - Asia</strong></td>
+                        <td>620</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td><strong>East Asia & Pacific</strong></td>
+                        <td>520</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Global</strong></td>
+                        <td>620</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Latin America & Caribbean</strong></td>
+                        <td>520</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Europe & Central Asia</strong></td>
+                        <td>520</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td><strong>North America</strong></td>
+                        <td>520</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 p-3">
+              <div class="pt_shadow-box bg-white p-3" style="height: 500px">
+                <div class="overflow-auto h-100">
+                  <table id="table-2" class="pt_table-1">
+                    <thead>
+                      <tr>
+                        <th>Flags</th>
+                        <th>Country</th>
+                        <th>Projects</th>
+                        <th>Funds</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-1.png" alt="flag-1" />
+                        </td>
+                        <td>Afganistan</td>
+                        <td>53</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-2.png" alt="flag-2" />
+                        </td>
+                        <td>Jorden</td>
+                        <td>820</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-3.png" alt="flag-3" />
+                        </td>
+                        <td>Somalia</td>
+                        <td>720</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-4.png" alt="flag-4" />
+                        </td>
+                        <td>Japan</td>
+                        <td>620</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-5.png" alt="flag-5" />
+                        </td>
+                        <td>France</td>
+                        <td>530</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-6.png" alt="flag-6" />
+                        </td>
+                        <td>Japan</td>
+                        <td>620</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-7.png" alt="flag-7" />
+                        </td>
+                        <td>Afganistan</td>
+                        <td>53</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-8.png" alt="flag-8" />
+                        </td>
+                        <td>Afganistan</td>
+                        <td>53</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-9.png" alt="flag-9" />
+                        </td>
+                        <td>Afganistan</td>
+                        <td>53</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/flag-10.png"
+                            alt="flag-10"
+                          />
+                        </td>
+                        <td>Afganistan</td>
+                        <td>53</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-1.png" alt="flag-1" />
+                        </td>
+                        <td>Afganistan</td>
+                        <td>53</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-2.png" alt="flag-2" />
+                        </td>
+                        <td>Jorden</td>
+                        <td>820</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-3.png" alt="flag-3" />
+                        </td>
+                        <td>Somalia</td>
+                        <td>720</td>
+                        <td>$9,220</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-4.png" alt="flag-4" />
+                        </td>
+                        <td>Japan</td>
+                        <td>620</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-5.png" alt="flag-5" />
+                        </td>
+                        <td>France</td>
+                        <td>530</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-6.png" alt="flag-6" />
+                        </td>
+                        <td>Japan</td>
+                        <td>620</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-7.png" alt="flag-7" />
+                        </td>
+                        <td>Afganistan</td>
+                        <td>53</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-8.png" alt="flag-8" />
+                        </td>
+                        <td>Afganistan</td>
+                        <td>53</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="../assets/images/flag-9.png" alt="flag-9" />
+                        </td>
+                        <td>Afganistan</td>
+                        <td>53</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/flag-10.png"
+                            alt="flag-10"
+                          />
+                        </td>
+                        <td>Afganistan</td>
+                        <td>53</td>
+                        <td>$374,647,785</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4 p-3">
+              <div class="pt_shadow-box bg-white p-3" style="height: 500px">
+                <div class="overflow-auto h-100">
+                  <h5 class="pt_color-green fw-bold">Aid category</h5>
+                  <div
+                    class="mt-2 rounded-3 pt_background-light-grey-2 p-1 d-flex gap-2 pt_w-fit"
+                  >
+                    <div
+                      class="group-button pt_group-1 active"
+                      data-show="table-3"
+                      data-hide="chart-1"
+                      data-hide-2="chart-2"
+                    >
+                      Category
+                    </div>
+                    <div
+                      class="group-button pt_group-1"
+                      data-show="chart-1"
+                      data-hide="table-3"
+                      data-hide-2="chart-2"
+                    >
+                      % Projects
+                    </div>
+                    <div
+                      class="group-button pt_group-1"
+                      data-show="chart-2"
+                      data-hide="table-3"
+                      data-hide-2="chart-1"
+                    >
+                      % Funding$
+                    </div>
+                  </div>
+                  <table id="table-3" class="pt_table-1 mt-3">
+                    <thead>
+                      <tr>
+                        <th>Category</th>
+                        <th>Projects</th>
+                        <th>Funding$</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-17.png"
+                            width="20"
+                            height="20"
+                            alt="icon-17"
+                          /><strong>Development</strong>
+                        </td>
+                        <td>2444</td>
+                        <td>52,686,932,248</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-18.png"
+                            width="20"
+                            height="20"
+                            alt="icon-18"
+                          /><strong>Humanitarian</strong>
+                        </td>
+                        <td>2457</td>
+                        <td>10,133,334,261</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-19.png"
+                            width="20"
+                            height="20"
+                            alt="icon-19"
+                          /><strong>Charity</strong>
+                        </td>
+                        <td>84</td>
+                        <td>100,708,787</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <canvas class="mx-auto mt-3 d-none" id="chart-1"></canvas>
+                  <canvas class="mx-auto mt-3 d-none" id="chart-2"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 p-3">
+              <div class="pt_shadow-box bg-white p-3" style="height: 500px">
+                <div class="overflow-auto h-100">
+                  <h5 class="pt_color-green fw-bold">
+                    Projects by sector - Top 10 sectors $
+                  </h5>
+                  <div
+                    class="mt-2 rounded-3 pt_background-light-grey-2 p-1 d-flex gap-2 pt_w-fit"
+                  >
+                    <div
+                      class="group-button pt_group-2 active"
+                      data-show="table-4"
+                      data-hide="chart-3"
+                      data-hide-2="chart-4"
+                    >
+                      Sector
+                    </div>
+                    <div
+                      class="group-button pt_group-2"
+                      data-show="chart-3"
+                      data-hide="table-4"
+                      data-hide-2="chart-4"
+                    >
+                      % Projects
+                    </div>
+                    <div
+                      class="group-button pt_group-2"
+                      data-show="chart-4"
+                      data-hide="table-4"
+                      data-hide-2="chart-3"
+                    >
+                      % Funding$
+                    </div>
+                  </div>
+                  <table id="table-4" class="pt_table-1 mt-3">
+                    <thead>
+                      <tr>
+                        <th>Sector</th>
+                        <th>Projects</th>
+                        <th>Funding$</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-20.png"
+                            width="20"
+                            height="20"
+                            alt="icon-20"
+                          /><strong>Development - budget Supporting </strong>
+                        </td>
+                        <td>50</td>
+                        <td>15,656,869,982</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-21.png"
+                            width="20"
+                            height="20"
+                            alt="icon-21"
+                          /><strong>General program assistance</strong>
+                        </td>
+                        <td>6</td>
+                        <td>7,569,000,000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-22.png"
+                            width="20"
+                            height="20"
+                            alt="icon-22"
+                          /><strong
+                            >Development - Transport and Storage
+                          </strong>
+                        </td>
+                        <td>268</td>
+                        <td>5,834,106,671</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-23.png"
+                            width="20"
+                            height="20"
+                            alt="icon-23"
+                          /><strong>Development - Other projects </strong>
+                        </td>
+                        <td>63</td>
+                        <td>4,466,569,533</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-24.png"
+                            width="20"
+                            height="20"
+                            alt="icon-24"
+                          /><strong
+                            >Development - Banking and financial services
+                          </strong>
+                        </td>
+                        <td>4</td>
+                        <td>123 / 1000 Sold</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-25.png"
+                            width="20"
+                            height="20"
+                            alt="icon-25"
+                          /><strong>Development - energy </strong>
+                        </td>
+                        <td>4</td>
+                        <td>123 / 1000 Sold</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-26.png"
+                            width="20"
+                            height="20"
+                            alt="icon-26"
+                          /><strong
+                            >Humanitarian - Food and Agricultural Security
+                          </strong>
+                        </td>
+                        <td>4</td>
+                        <td>123 / 1000 Sold</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-27.png"
+                            width="20"
+                            height="20"
+                            alt="icon-27"
+                          /><strong
+                            >Development - Agriculture, forestry and fish
+                          </strong>
+                        </td>
+                        <td>63</td>
+                        <td>4,466,569,533</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-28.png"
+                            width="20"
+                            height="20"
+                            alt="icon-28"
+                          /><strong>Development - Education </strong>
+                        </td>
+                        <td>63</td>
+                        <td>4,466,569,533</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/icon-29.png"
+                            width="20"
+                            height="20"
+                            alt="icon-29"
+                          /><strong>Humanitarian - health </strong>
+                        </td>
+                        <td>63</td>
+                        <td>4,466,569,533</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <canvas class="mx-auto mt-3 d-none" id="chart-3"></canvas>
+                  <canvas class="mx-auto mt-3 d-none" id="chart-4"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6 p-3 col-pt-12">
+              <div class="pt_shadow-box bg-white p-3" style="height: 500px">
+                <div class="overflow-auto h-100">
+                  <h5 class="pt_color-green fw-bold">Saudi Donor Entities</h5>
+                  <table id="table-5" class="pt_table-1 mt-3">
+                    <thead>
+                      <tr>
+                        <th>Entity</th>
+                        <th>QTY</th>
+                        <th>Total$</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/image-12.png"
+                            width="20"
+                            height="20"
+                            alt="image-12"
+                          /><strong>The Saudi Fund for Development</strong>
+                        </td>
+                        <td>33</td>
+                        <td>1,190,571,333</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/image-13.png"
+                            width="20"
+                            height="20"
+                            alt="image-13"
+                          /><strong>Ministry of Foreign Affairs</strong>
+                        </td>
+                        <td>591</td>
+                        <td>1,136,187,111</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/image-14.png"
+                            width="20"
+                            height="20"
+                            alt="image-14"
+                          /><strong
+                            >King Salman Humanitarian Aid and Relief
+                            Centre</strong
+                          >
+                        </td>
+                        <td>5</td>
+                        <td>83,408,574</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/image-14.png"
+                            width="20"
+                            height="20"
+                            alt="image-14"
+                          /><strong
+                            >King Salman Humanitarian Aid and Relief
+                            Centre</strong
+                          >
+                        </td>
+                        <td>5</td>
+                        <td>83,408,574</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/image-14.png"
+                            width="20"
+                            height="20"
+                            alt="image-14"
+                          /><strong
+                            >King Salman Humanitarian Aid and Relief
+                            Centre</strong
+                          >
+                        </td>
+                        <td>5</td>
+                        <td>83,408,574</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/image-15.png"
+                            width="20"
+                            height="20"
+                            alt="image-15"
+                          /><strong
+                            >King Salman Humanitarian Aid and Relief
+                            Centre</strong
+                          >
+                        </td>
+                        <td>5</td>
+                        <td>83,408,574</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/image-16.png"
+                            width="20"
+                            height="20"
+                            alt="image-16"
+                          /><strong
+                            >King Salman Humanitarian Aid and Relief
+                            Centre</strong
+                          >
+                        </td>
+                        <td>5</td>
+                        <td>83,408,574</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 p-3 col-pt-12">
+              <div class="pt_shadow-box bg-white p-3" style="height: 500px">
+                <div class="overflow-auto h-100">
+                  <h5 class="pt_color-green fw-bold">
+                    Number of Projects / Funds
+                  </h5>
+                  <table id="table-6" class="pt_table-1 mt-3 pt_desktop-show">
+                    <thead>
+                      <tr>
+                        <th>Projects</th>
+                        <th>Year</th>
+                        <th>Funding$</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <strong>1989</strong>
+                          <img
+                            src="../assets/images/bar-1.png"
+                            width="50%"
+                            height="15"
+                            alt="bar-1"
+                          />
+                        </td>
+                        <td>2000</td>
+                        <td>
+                          <img
+                            src="../assets/images/bar-2.png"
+                            alt="bar-2"
+                            height="15"
+                            width="70%"
+                          /><strong>$156,56</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <strong>2000</strong>
+                          <img
+                            src="../assets/images/bar-1.png"
+                            width="60%"
+                            height="15"
+                            alt="bar-1"
+                          />
+                        </td>
+                        <td>2001</td>
+                        <td>
+                          <img
+                            src="../assets/images/bar-2.png"
+                            alt="bar-2"
+                            height="15"
+                            width="40%"
+                          /><strong>$80,56</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <strong>1700</strong>
+                          <img
+                            src="../assets/images/bar-1.png"
+                            width="40%"
+                            height="15"
+                            alt="bar-1"
+                          />
+                        </td>
+                        <td>2002</td>
+                        <td>
+                          <img
+                            src="../assets/images/bar-2.png"
+                            alt="bar-2"
+                            height="15"
+                            width="35%"
+                          /><strong>$70,13</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <strong>300</strong>
+                          <img
+                            src="../assets/images/bar-1.png"
+                            width="14%"
+                            height="15"
+                            alt="bar-1"
+                          />
+                        </td>
+                        <td>2003</td>
+                        <td>
+                          <img
+                            src="../assets/images/bar-2.png"
+                            alt="bar-2"
+                            height="15"
+                            width="60%"
+                          /><strong>$140,18</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <strong>2500</strong>
+                          <img
+                            src="../assets/images/bar-1.png"
+                            width="80%"
+                            height="15"
+                            alt="bar-1"
+                          />
+                        </td>
+                        <td>2004</td>
+                        <td>
+                          <img
+                            src="../assets/images/bar-2.png"
+                            alt="bar-2"
+                            height="15"
+                            width="80%"
+                          /><strong>$200,56</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <strong>1900</strong>
+                          <img
+                            src="../assets/images/bar-1.png"
+                            width="45%"
+                            height="15"
+                            alt="bar-1"
+                          />
+                        </td>
+                        <td>2005</td>
+                        <td>
+                          <img
+                            src="../assets/images/bar-2.png"
+                            alt="bar-2"
+                            height="15"
+                            width="30%"
+                          /><strong>$60,56</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <strong>1600</strong>
+                          <img
+                            src="../assets/images/bar-1.png"
+                            width="35%"
+                            height="15"
+                            alt="bar-1"
+                          />
+                        </td>
+                        <td>2006</td>
+                        <td>
+                          <img
+                            src="../assets/images/bar-2.png"
+                            alt="bar-2"
+                            height="15"
+                            width="10%"
+                          /><strong>$20,56</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <strong>1500</strong>
+                          <img
+                            src="../assets/images/bar-1.png"
+                            width="31%"
+                            height="15"
+                            alt="bar-1"
+                          />
+                        </td>
+                        <td>2007</td>
+                        <td>
+                          <img
+                            src="../assets/images/bar-2.png"
+                            alt="bar-2"
+                            height="15"
+                            width="12%"
+                          /><strong>$56,70</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="pt_mobile-show mt-3">
+                    <div class="d-flex">
+                      <div
+                        class="number-of-statistics active"
+                        data-show="chart-5"
+                        data-hide="chart-6"
+                      >
+                        Projects
+                      </div>
+                      <div
+                        class="number-of-statistics"
+                        data-show="chart-6"
+                        data-hide="chart-5"
+                      >
+                        Funds
+                      </div>
+                    </div>
+                    <canvas class="mt-3" id="chart-5"></canvas>
+                    <canvas class="mt-3 d-none" id="chart-6"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mt-5 p-1"
+          style="
+            background-image: url('../assets/images/image-2.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        >
+          <div class="pt_container row">
+            <div class="col-md-6">
+              <img
+                src="../assets/images/image-17.png"
+                width="70%"
+                alt="image-17"
+                class="pt_desktop-show"
+              />
+              <img
+                src="../assets/images/image-46.png"
+                alt="image-46"
+                class="pt_mobile-show w-100"
+              />
+            </div>
+            <div class="col-md-6 text-white position-relative">
+              <div style="margin-top: 20%">
+                <h4 class="fw-bold">Data & Report</h4>
+                <h6>
+                  you can search ,create and customize your report and export it
+                  easily
+                </h6>
+                <button class="pt_button pt_button-white">See More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="pt_background-yellow">
+        <div
+          class="pt_container text-white d-flex justify-content-between pt_desktop-show"
+        >
+          <p class="m-0">
+            All rights reserved © King Salman Humanitarian Aid and Relief Centre
+            2022
+          </p>
+          <p class="m-0">Definitions | Privacy & Policies of Use</p>
+        </div>
+        <div class="pt_container text-white pt_mobile-show text-center">
+          <p class="m-0">Definitions | Privacy & Policies of Use</p>
+          <hr />
+          <p class="m-0">
+            All rights reserved © King Salman Humanitarian Aid and Relief Centre
+            2022
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="../assets/libraries/jquery/jquery.min.js"></script>
+    <script src="../assets/libraries/popper-2.11.6/popper.min.js"></script>
+    <script src="../assets/libraries/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="../assets/libraries/multiselect-01/js/jquery.min.js"></script>
+    <script src="../assets/libraries/multiselect-01/js/popper.js"></script>
+    <script src="../assets/libraries/multiselect-01/js/bootstrap.min.js"></script>
+    <script src="../assets/libraries/multiselect-01/js/bootstrap-multiselect.js"></script>
+    <script src="../assets/libraries/datatable-1.13.1/datatables.min.js"></script>
+    <script src="../assets/libraries/chart.js/chart.umd.js"></script>
+    <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/project-general-statistics.js"></script>
+  </body>
+</html>

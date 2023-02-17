@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="../assets/libraries/fontawesome-free-6.2.1-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/libraries/bootstrap-5.2.3-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/libraries/datatable-1.13.1/datatables.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style-func.css" />
+    <link rel="stylesheet" href="../assets/css/saudi-donor-entities.css" />
+    <title>Saudi Donor Entities</title>
+  </head>
+  <body>
+    <div class="pt_non-footer">
+      <header class="position-relative">
+        <div class="pt_header-top pt_background-yellow-1">
+          <div
+            class="pt_container d-flex justify-content-between align-items-center"
+          >
+            <div class="pt_header-languages">
+              <a href="javascript:;">عربي</a> |
+              <a href="javascript:;">Français</a> |
+              <a href="javascript:;"> Deutsch</a>
+            </div>
+            <div class="pt_header-social-links">
+              <a href="javascript:;"><i class="fab fa-facebook"></i></a>
+              <a href="javascript:;"><i class="fab fa-twitter"></i></a>
+              <a href="javascript:;"><i class="fab fa-instagram"></i></a>
+              <a href="javascript:;"><i class="fab fa-snapchat-ghost"></i></a>
+              <a href="javascript:;"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="pt_header-menubar pt_background-green">
+          <div
+            class="pt_container d-flex justify-content-between align-items-center"
+          >
+            <a href="home.html">
+              <img
+                src="../assets/images/logo.png"
+                alt="logo"
+                class="pt_w-150px"
+              />
+            </a>
+            <div class="pt_header-menu pt_desktop-show">
+              <a href="about-us.html" class="pt_menu-item">About</a>
+              <div class="dropdown">
+                <p
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  class="pt_menu-item"
+                >
+                  Projects <i class="fa fa-angle-down"></i>
+                </p>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="project-general-statistics.html"
+                      >General Statistics</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="timeline-project.html"
+                      >Project Timeline</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <p
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  class="pt_menu-item"
+                >
+                  Financial Contributions <i class="fa fa-angle-down"></i>
+                </p>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="financial-contributions.html"
+                      >General Statistics</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="timeline-contribution.html"
+                      >Contribution Timeline</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <p
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  class="pt_menu-item"
+                >
+                  Visitors (refugees) <i class="fa fa-angle-down"></i>
+                </p>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="visitors-refugees.html"
+                      >General Statistics</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="timeline-service.html"
+                      >Service Timeline</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <p
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  class="pt_menu-item"
+                >
+                  Data and reports <i class="fa fa-angle-down"></i>
+                </p>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="create-report-3.html"
+                      >Create Report</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="search-for-a-project.html"
+                      >Search For a Project</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="search-for-a-contribution.html"
+                      >Search For a Contribution</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="search-for-a-service.html"
+                      >Search For a Service</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <a href="contact.html" class="pt_menu-item">Contact us</a>
+            </div>
+            <div class="pt_header-menu-mobile pt_mobile-show">
+              <i
+                class="fa fa-bars text-white pt_cursor-pointer pt_mobile-menu-toggle-btn"
+              ></i>
+              <div
+                class="pt_mobile-menu-div d-flex flex-column gap-4 pt_shadow-box"
+              >
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="home.html">
+                    <img
+                      src="../assets/images/logo-1.png"
+                      alt="logo-1"
+                      class="pt_w-150px"
+                    />
+                  </a>
+                  <i
+                    class="fa fa-close pt_cursor-pointer pt_mobile-menu-toggle-btn"
+                  ></i>
+                </div>
+                <div>
+                  <div class="mobile-menu-item">
+                    <a href="about-us.html">About </a>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <div class="mobile-menu-item mobile-menu-item-parent">
+                    <a href="javascript:;"
+                      >Projects <i class="fa fa-angle-down icon-direction"></i
+                    ></a>
+                  </div>
+                  <div class="mobile-menu-item-children">
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="project-general-statistics.html"
+                        >General Statistic</a
+                      >
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="timeline-project.html">Project Timeline</a>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <div class="mobile-menu-item mobile-menu-item-parent">
+                    <a href="javascript:;"
+                      >Financial contributions
+                      <i class="fa fa-angle-down icon-direction"></i
+                    ></a>
+                  </div>
+                  <div class="mobile-menu-item-children">
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="financial-contributions.html"
+                        >General Statistic</a
+                      >
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="timeline-contribution.html"
+                        >Contribution Timeline</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <div class="mobile-menu-item mobile-menu-item-parent">
+                    <a href="javascript:;"
+                      >Visitors (refugees)
+                      <i class="fa fa-angle-down icon-direction"></i
+                    ></a>
+                  </div>
+                  <div class="mobile-menu-item-children">
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="visitors-refugees.html">General Statistic</a>
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="timeline-service.html">Service Timeline</a>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <div class="mobile-menu-item mobile-menu-item-parent">
+                    <a href="javascript:;"
+                      >Data and reports
+                      <i class="fa fa-angle-down icon-direction"></i
+                    ></a>
+                  </div>
+                  <div class="mobile-menu-item-children">
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="create-report-3.html">Create Report</a>
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="search-for-a-project.html"
+                        >Search For a Project</a
+                      >
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="search-for-a-contribution.html"
+                        >Search For a Contribution</a
+                      >
+                    </div>
+                    <div class="mobile-menu-item mobile-menu-item-child">
+                      <a href="search-for-a-service.html"
+                        >Search For a Service</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <div class="mobile-menu-item">
+                    <a href="contact.html">Contact </a>
+                  </div>
+                </div>
+                <hr />
+                <div>
+                  <span class="lang-switch"
+                    ><span class="lang-switch-select lang-switch-item px-3"
+                      >عربي</span
+                    ><span class="lang-switch-item">Français</span
+                    ><span class="lang-switch-item">Deutsch</span></span
+                  >
+                </div>
+                <div
+                  class="d-flex justify-content-between align-content-center"
+                >
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-instagram"></i></span
+                  ></a>
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-youtube"></i></span
+                  ></a>
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-twitter"></i></span
+                  ></a>
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-facebook"></i></span
+                  ></a>
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-snapchat-ghost"></i></span
+                  ></a>
+                  <a href="javascript:;"
+                    ><span class="pt_icon-circle-green"
+                      ><i class="fab fa-whatsapp"></i></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="hero">
+          <div class="pt_container">
+            <h3 class="text-center text-white">General statistics</h3>
+            <div
+              class="mt-5 d-flex gap-5 justify-content-center hero-statistics text-white flex-wrap"
+            >
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-12.png" alt="icon-12" />
+                <p>Total no of beneficiaries (Cumulative)</p>
+                <strong>6,613,261</strong>
+              </div>
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-12.png" alt="icon-12" />
+                <p>Beneficiary Countries</p>
+                <strong>3</strong>
+              </div>
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-13.png" alt="icon-13" />
+                <p>No. of Sectors</p>
+                <strong>3</strong>
+              </div>
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-15.png" alt="icon-15" />
+                <p>Donor Entities</p>
+                <strong>3</strong>
+              </div>
+              <div class="text-center hero-statistics-item">
+                <img src="../assets/images/icon-16.png" alt="icon-16" />
+                <p>Total funding</p>
+                <strong>
+                  65.98 Billion USD Dollar
+                  <br />
+                  17.59 Billion Saudi Riyal
+                </strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt_container pt_z-index-10 position-relative">
+          <div class="mt-2 d-flex justify-content-between">
+            <div class="pt_navigation-green">
+              <a href="home.html"><span>Home</span></a>
+              <span><i class="fa fa-angle-right"></i></span>
+              <a href="javascript:;"><span>Visitor refugees</span></a>
+              <span><i class="fa fa-angle-right"></i></span>
+              <a href="javascript:;"><span>General Statistics</span></a>
+              <span><i class="fa fa-angle-right"></i></span>
+              <a href="javascript:;"><span>Saudi Donor Entities</span></a>
+            </div>
+            <h3 class="fw-bold pt_color-green pt_mobile-show">
+              Financial Reports
+            </h3>
+            <div class="pt_share-section">
+              <p>
+                <span class="pt_color-green">Share this page</span>
+                <span class="pt_icon-circle-green" id="pt_share-btn">
+                  <i class="fa fa-share-nodes"></i>
+                </span>
+              </p>
+              <div class="pt_share-items pt_right-m-15px">
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fa fa-envelope"></i></a>
+                </div>
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="pt_share-item">
+                  <a href="javascript:;"><i class="fa fa-print"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="pt_mobile-show m-0" />
+        <div class="pt_container">
+          <div class="mt-4 d-flex">
+            <div class="style-1 goto-1" data-url="visitors-refugees.html">
+              <img src="../assets/images/icon-30.png" alt="icon-30" />
+              <br class="pt_mobile-show" /><span class="pt_overflow-wrap-break"
+                >Financial Reports</span
+              >
+            </div>
+            <div class="style-1 goto-1" data-url="visitors-beneficiaries.html">
+              <img src="../assets/images/icon-31.png" alt="icon-31" />
+              <br class="pt_mobile-show" /><span class="pt_overflow-wrap-break"
+                >Beneficiaries</span
+              >
+            </div>
+            <div class="style-1 active goto-1">
+              <img src="../assets/images/icon-32.png" alt="icon-32" />
+              <br class="pt_mobile-show" /><span class="pt_overflow-wrap-break"
+                >Saudi Donor Entities</span
+              >
+            </div>
+          </div>
+          <h3 class="fw-bold mt-4">Saudi Donor Entities</h3>
+          <div class="row mt-3">
+            <div class="col-md-12 p-3">
+              <div class="pt_shadow-box bg-white p-3" style="height: 500px">
+                <div class="overflow-auto h-100">
+                  <h5 class="pt_color-green fw-bold">Saudi Donor Entities</h5>
+                  <table id="table-1" class="pt_table-1 mt-3">
+                    <thead>
+                      <tr>
+                        <th>Entity</th>
+                        <th>QTY</th>
+                        <th>Total$</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/image-12.png"
+                            alt="image-12"
+                            width="30"
+                            height="30"
+                          />
+                          <strong>Passport General Department</strong>
+                        </td>
+                        <td>16</td>
+                        <td>7,439,737,181</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/image-13.png"
+                            alt="image-13"
+                            width="30"
+                            height="30"
+                          />
+                          <strong>Ministry of Education</strong>
+                        </td>
+                        <td>1042</td>
+                        <td>5,090,014,195</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="../assets/images/image-14.png"
+                            alt="image-14"
+                            width="30"
+                            height="30"
+                          />
+                          <strong>Ministry of Health</strong>
+                        </td>
+                        <td>29</td>
+                        <td>5,066,274,966</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-1"
+          style="
+            background-image: url('../assets/images/image-2.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        >
+          <div class="pt_container row">
+            <div class="col-md-6">
+              <img
+                src="../assets/images/image-17.png"
+                width="70%"
+                alt="image-17"
+                class="pt_desktop-show"
+              />
+              <img
+                src="../assets/images/image-46.png"
+                alt="image-46"
+                class="pt_mobile-show w-100"
+              />
+            </div>
+            <div class="col-md-6 text-white position-relative">
+              <div style="margin-top: 20%">
+                <h4 class="fw-bold">Data & Report</h4>
+                <h6>
+                  you can search ,create and customize your report and export it
+                  easily
+                </h6>
+                <button class="pt_button pt_button-white">See More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="pt_background-yellow">
+        <div
+          class="pt_container text-white d-flex justify-content-between pt_desktop-show"
+        >
+          <p class="m-0">
+            All rights reserved © King Salman Humanitarian Aid and Relief Centre
+            2022
+          </p>
+          <p class="m-0">Definitions | Privacy & Policies of Use</p>
+        </div>
+        <div class="pt_container text-white pt_mobile-show text-center">
+          <p class="m-0">Definitions | Privacy & Policies of Use</p>
+          <hr />
+          <p class="m-0">
+            All rights reserved © King Salman Humanitarian Aid and Relief Centre
+            2022
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="../assets/libraries/jquery/jquery.min.js"></script>
+    <script src="../assets/libraries/popper-2.11.6/popper.min.js"></script>
+    <script src="../assets/libraries/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="../assets/libraries/multiselect-01/js/jquery.min.js"></script>
+    <script src="../assets/libraries/multiselect-01/js/popper.js"></script>
+    <script src="../assets/libraries/multiselect-01/js/bootstrap.min.js"></script>
+    <script src="../assets/libraries/multiselect-01/js/bootstrap-multiselect.js"></script>
+    <script src="../assets/libraries/datatable-1.13.1/datatables.min.js"></script>
+    <script src="../assets/libraries/chart.js/chart.umd.js"></script>
+    <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/saudi-donor-entities.js"></script>
+  </body>
+</html>

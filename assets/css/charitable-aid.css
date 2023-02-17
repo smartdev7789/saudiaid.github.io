@@ -1,0 +1,42 @@
+.hero {
+  height: 300px;
+  background-image: url("../images/image-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.pt_sectors-container .pt_sectors-header {
+  background-color: #f3f3f4;
+  border-radius: 10px 10px 0 0;
+  padding: 1rem 0;
+}
+.pt_sectors-container .pt_sectors-header .pt_sectors-title {
+  text-align: center;
+  color: #005a59;
+  font-size: 26px;
+  font-weight: bold;
+}
+.pt_sectors-container .pt_sectors-main {
+  padding: 2rem 4rem;
+}
+.pt_sectors-container .pt_sectors-main .pt_sector {
+  align-items: center;
+}
+.pt_sectors-container .pt_sectors-main .pt_sector div {
+  text-align: center;
+}
+.pt_sectors-container .pt_sectors-main .pt_sector button {
+  width: 100%;
+}
+.pt_sector-hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 575px) {
+  .pt_sectors-container .pt_sectors-main {
+    padding: 2rem 1rem;
+  }
+}

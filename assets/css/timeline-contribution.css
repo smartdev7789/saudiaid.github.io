@@ -1,0 +1,27 @@
+.pt-list img {
+  width: 40px;
+  height: 40px;
+}
+.pt-list-item {
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  padding: 5px 2rem;
+  font-weight: bold;
+  color: #00595a;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.pt-list-item:hover {
+  background-color: #74dbdb;
+  color: #000000;
+}
+.pt-list-item div {
+  margin-left: 3rem;
+}
+.pt-list-item h5 {
+  margin-bottom: 0;
+  font-weight: bold;
+  width: 3%;
+}
